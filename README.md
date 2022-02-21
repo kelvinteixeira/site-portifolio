@@ -4,7 +4,7 @@
 
 Aplicação desenvolvida com o intuito para mostrar um pouco do meu conhecimento como desenvolvedor front-end e para buscas de forma mais facil meus projetos pessoais finalizados, e também para me auto descrever em um breve resumo. 
 
-#### <div align="right">- Projeto Finalizado 🟢 <div>
+<!-- #### <div align="right">- Projeto Finalizado 🟢 <div> -->
 
 ## Tecnologias e linguagens usadas:
 - HTML
