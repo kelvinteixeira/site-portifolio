@@ -10,7 +10,7 @@ body {
 .header-container {
   height: 100vh;
   background-color: #fff;
-  background-image: url(assets/backgroundComFoto2.png);
+  background-image: url(backgroundPuro.png);
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
@@ -34,6 +34,11 @@ h1 {
 h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .social {
@@ -180,124 +185,10 @@ a:hover {
   opacity: 1;
 }
 
-.container {
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 48px 0;
-}
-
-.container h1 {
-  font-size: 50px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  text-align: center;
-}
-
-.card-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 90%;
-}
-
-.card {
-  display: inherit;
-  line-height: 16px;
-}
-
-.card img {
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
-  margin: 48px 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  filter: grayscale(.5);
-  color: #000;
-  transition: .5s ease-in-out;
-}
-
-.card-text {
-  width: 40%;
-  letter-spacing: 1px;
-  color: gray;
-}
-
-.card-text p {
-  color: #000;
-  text-transform: uppercase;
-}
-
-.card-wrapper {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.card-wrapper::before {
-  content: '';
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  display: block;
-  border: 1px solid #fff;
-  opacity: 0;
-  transition: .5s ease-in-out;
-}
-
-.card-wrapper h2 {
-  font-size: 30px;
-  color: #000;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin: 0;
-  transition: .5s ease-in-out;
-}
-
-.card-wrapper a {
-  margin-top: 16px;
-  margin-bottom: 32px;
-  font-size: 0;
-  visibility: 0;
-  opacity: 0;
-  font-weight: bold;
-  text-transform: uppercase;
-  transition: .5s ease-in-out;
-  cursor: pointer;
-  color: #000;
-  text-decoration: none;
-}
-
-.card:hover img {
-  filter: unset;
-}
-
-.card:hover img>.card-wrapper::before {
-  height: 275px;
-  width: 275px;
-  opacity: 1;
-}
-
-.card:hover>.card-wrapper a {
-  opacity: 1;
-  visibility: visible;
-  font-size: 14px;
-}
-
-
 .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 100px;
   background-color: rgb(36, 36, 122);
